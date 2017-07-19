@@ -1,0 +1,22 @@
+{
+  "name": "oop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aczerminski/Kodilla_OOP.git"
+  },
+  "author": "artur czerminski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aczerminski/Kodilla_OOP/issues"
+  },
+  "homepage": "https://github.com/aczerminski/Kodilla_OOP#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
