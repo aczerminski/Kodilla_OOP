@@ -1,14 +1,15 @@
-function Phone(brand, price, color, battery, screen, memory) {
+function Phone(brand, price, color, battery, screen, memory, getWarrantyCost) {
 	this.brand = brand;
 	this.price = price;
 	this.color = color;
   this.battery = battery;
   this.screen = screen;
   this.memory = memory;
+  this.getWarrantyCost = function(){(this.price * 10%)};
 }
 
 Phone.prototype.printInfo = function() {
-	console.log("The phone brand is " + this.brand + ", color is " + this.color + ", the price is " + this.price + ", battery is " + this.battery + ", screen is " + this.screen + ", memory is " + this.memory + ".");
+	console.log("The phone brand is " + this.brand + ", color is " + this.color + ", the price is " + this.price + ", battery is " + this.battery + ", screen is " + this.screen + ", memory is " + this.memory + ", warrantyCost is " + this.getWarrantyCost + ".");
 }
 
 var iPhone6S = new Phone("Apple", 2250, "silver", "2800mah", "5 inches", "32gb");
