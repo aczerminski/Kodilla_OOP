@@ -1,3 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.column {
+  display: inline-flex;
+
+
+}
+.create-column {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  
+
+
+}
+
 .column-card-list {
   height: auto;
 }
