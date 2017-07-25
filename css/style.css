@@ -1,4 +1,4 @@
-body {
+/*body {
   display: flex;
   justify-content: center;
   background-color: white;
@@ -13,11 +13,12 @@ body {
   padding: 10px;
   border-radius: 8px;
   transition-duration: 0.4s;
-  
+
 
 
 }
+*/
 
 .column-card-list {
-  height: auto;
+  min-height: 10px;
 }
